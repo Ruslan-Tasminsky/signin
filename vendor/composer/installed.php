@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'gabordemooij/redbean' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gabordemooij/redbean',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'b8e09d3e0610e90b661c0ca853f3811482e42020',
+            'dev_requirement' => false,
+        ),
+        'swiftmailer/swiftmailer' => array(
+            'pretty_version' => 'v5.4.12',
+            'version' => '5.4.12.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../swiftmailer/swiftmailer',
+            'aliases' => array(),
+            'reference' => '181b89f18a90f8925ef805f950d47a7190e9b950',
+            'dev_requirement' => false,
+        ),
+        'vlucas/valitron' => array(
+            'pretty_version' => 'v1.4.10',
+            'version' => '1.4.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/valitron',
+            'aliases' => array(),
+            'reference' => '5ebd5d7af82cc0a9d798e816a2ecad63f1b59ceb',
+            'dev_requirement' => false,
+        ),
+    ),
+);
